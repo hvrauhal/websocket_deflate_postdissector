@@ -9,7 +9,13 @@ INSTALLING:
 
 1. you need Wireshark 2.0+
 
-2. install `lua-zlib` library (Ubuntu)
+2. install `lua-zlib` library 
+    
+   * Ubuntu: `sudo apt install lua-zlib`
+   * MacOS:
+
+          brew install lua
+          sudo luarocks install lua-zlib
 
 3. copy `websocket_deflate.lua` to `~/.wireshark/plugins/`
 
